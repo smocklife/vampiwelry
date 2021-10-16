@@ -148,17 +148,16 @@ display: inline-block;
 }
 .pic{
     background-color: black;
-    height: 20vh;
-    width: 30vw;
+    height: 15%;
+    width: 30%;
     margin-top: 0.5vw;
     margin-bottom: 1vw;
+    margin-left: -10vw;
 }
 
 .pic-ctn {
     width: auto;
     height:200px;
-    margin-right: 50vw;
-    margin-left: -10vw;
   }
   
   @keyframes display {
@@ -185,7 +184,7 @@ display: inline-block;
   }
   
   .pic-ctn {
-    position: relative;
+
     width: 100vw;
     height: 300px;
   
@@ -197,6 +196,7 @@ display: inline-block;
     opacity: 0;
     animation: display 10s infinite;
     border: white 0.5vw solid;
+
   }
   
   img:nth-child(2) {
