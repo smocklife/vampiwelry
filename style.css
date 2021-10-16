@@ -24,7 +24,7 @@ body{
 
 #top_menu{
     width:100%;
-    height: 15vw;
+    height: auto;
     background-color: black;
     color: rgb(53, 30, 30);
     text-align: center;
@@ -60,7 +60,7 @@ body{
     font-size: 2vw;
     font-family: "AmericanText";
     text-align: center;
-    margin-right: 21vw;
+    margin-right: 0vw;
     text-decoration: underline;   
 }
 #top_social{
@@ -87,13 +87,28 @@ display: inline-block;
     height: 3vw;
     margin-left: 1vw;
 }
+#sous_menu{
+    width: 100%;
+    height:4vw;
+    background-color: black;
+
+}
 
 #sous_menu_1{
+
     float: left;
-    margin-top: 4.0vw;
+    margin-top: 0vw;
     margin-left: -3vw;
+   
+}
+
+#sous_menu_2{
+    float: right;
+    margin-top: 0vw;
+    margin-right: 3vw;
 }
   .sous_menu_li{
+
     display: inline;
     padding-left:2vw ;
   }
