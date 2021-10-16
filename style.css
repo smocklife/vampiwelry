@@ -1,0 +1,109 @@
+header{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: auto;
+
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: auto;
+
+}
+
+@font-face {
+    font-family: "AmericanText";
+    src: url(/police/AmericanText.ttf) format("truetype");
+}
+
+#top_menu{
+    width:100%;
+    height: 13vw;
+    background-color: black;
+    color: rgb(53, 30, 30);
+    text-align: center;
+    font-size: 1vw;
+}
+
+#top_logo{
+    border: 0.5vw dashed  rgb(53, 30, 30);
+    background-color: rgb(53, 30, 50);
+    border-radius: 100%;
+    margin-left: 1vw;
+    margin-right: 90vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+
+#logo{
+    width: 5vw;
+    height: 5vw;
+}
+
+#top_titre{
+    color: rgb(71, 32, 32);
+    font-size: 4vw;
+    font-family: "AmericanText";
+    position: relative;
+    margin-top: 0vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+
+       
+}
+
+#top_social{
+    float: right;
+    margin-top: -6vw;
+    margin-right: 1.5vw;
+}
+
+.social_menu{
+    display: inline;
+
+}
+
+.social_menu_a{
+   
+display: inline-block;
+
+}
+
+
+#icone{
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+}
+
+#sous_menu_1{
+    margin-top: 3vw;
+    float: left;
+    margin-left: -5vw;
+}
+  .sous_menu_li{
+    display: inline;
+    padding-left:5vw ;
+  }
+
+    .sous_menu_a {
+    display: inline-block;
+    border-top: 0.2vw solid white;
+    border-left: 0.2vw solid white;
+    border-right:0.2vw solid white;
+    border-radius: 10%;
+    background-color: rgb(53, 30, 30);
+    color: white;
+    text-decoration: none;
+    font-family: "AmericanText";
+    font-size: 2vw;
+    margin-bottom: -5vw;
+    
+}
+
+#carrousel_build{
+    text-align: left ;
+}
