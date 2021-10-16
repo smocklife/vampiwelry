@@ -42,9 +42,9 @@ body{
 
 #logo{
     float: left;
-    width: 5vw;
-    height: 5vw;
-    margin-top: -5vw;
+    width: 3.5vw;
+    height: 3.5vw;
+    margin-top: -3vw;
     margin-left: 1vw;
     border: 0.5vw dashed red;
     border-radius: 100%;
@@ -54,7 +54,7 @@ body{
 
 #top_titre{
     color: rgb(71, 32, 32);
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: "AmericanText";
     padding: auto;
     margin-top: 5vw;
@@ -64,10 +64,10 @@ body{
 
 #top_slogan{
     color: rgb(71, 32, 32);
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: "AmericanText";
     text-align: center;
-    margin-right: 0vw;
+    margin-right: 5vw;
     text-decoration: underline;   
 }
 #top_social{
@@ -90,9 +90,10 @@ display: inline-block;
 
 
 #icone{
-    width: 3vw;
-    height: 3vw;
+    width: 2vw;
+    height: 2vw;
     margin-left: 1vw;
+    margin-top: 1vw;
 }
 #sous_menu{
     width: 100%;
@@ -104,14 +105,14 @@ display: inline-block;
 #sous_menu_1{
 
     float: left;
-    margin-top: 0vw;
+    margin-top: 1.4vw;
     margin-left: -3vw;
    
 }
 
 #sous_menu_2{
     float: right;
-    margin-top: 0vw;
+    margin-top: 1.4vw;
     margin-right: 3vw;
 }
   .sous_menu_li{
@@ -133,7 +134,7 @@ display: inline-block;
     color: white;
     text-decoration: none;
     font-family: "AmericanText";
-    font-size: 2vw;
+    font-size: 1vw;
     
 }
 
@@ -153,7 +154,8 @@ display: inline-block;
 .pic-ctn {
     width: 100vw;
     height:200px;
-
+    margin-right: 50vw;
+    margin-left: -10vw;
   }
   
   @keyframes display {
@@ -187,7 +189,6 @@ display: inline-block;
   
   .pic-ctn > img {
     position: absolute;
-    top: 0;
     left: calc(50% - 100px);
     opacity: 0;
     animation: display 10s infinite;
