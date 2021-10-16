@@ -69,7 +69,7 @@ body{
     font-weight: 800;
     font-family: "AmericanText";
     text-align: center;
-    text-shadow: red 1px 1px 1px ;
+    text-shadow: rgb(255, 255, 255) 1px 1px 1px ;
     margin-right: 5vw;
     text-decoration: underline;   
 }
@@ -108,14 +108,14 @@ display: inline-block;
 #sous_menu_1{
 
     float: left;
-    margin-top: 1.4vw;
+    margin-top: 0.7vw;
     margin-left: -3vw;
    
 }
 
 #sous_menu_2{
     float: right;
-    margin-top: 1.4vw;
+    margin-top: 0.7vw;
     margin-right: 3vw;
 }
   .sous_menu_li{
@@ -137,7 +137,7 @@ display: inline-block;
     color: white;
     text-decoration: none;
     font-family: "AmericanText";
-    font-size: 1vw;
+    font-size: 1.5vw;
     
 }
 
