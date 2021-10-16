@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "AmericanText";
+    src: url(/police/AmericanText.ttf) format("truetype");
+}
+
+
+
 header{
     margin: 0%;
     padding: 0%;
@@ -14,10 +21,6 @@ body{
 
 }
 
-@font-face {
-    font-family: "AmericanText";
-    src: url(/police/AmericanText.ttf) format("truetype");
-}
 
 #top_menu{
     width:100%;
