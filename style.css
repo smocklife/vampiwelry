@@ -152,7 +152,7 @@ display: inline-block;
 }
 
 .pic-ctn {
-    width: 100vw;
+    width: auto;
     height:200px;
     margin-right: 50vw;
     margin-left: -10vw;
