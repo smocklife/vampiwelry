@@ -14,8 +14,7 @@
     width: 100%;
     height: 0.5vw;
     background-color: rgb(59, 24, 24);
-
-    
+    border:0.2vw solid white ;
 }
 
 
@@ -23,6 +22,7 @@
 header{
     margin: 0%;
     padding: 0%;
+    width: auto;
 
 
 }
@@ -30,8 +30,8 @@ header{
 body{
     margin: 0%;
     padding: 0%;
-  background-color: black;
- 
+    background-color: black;
+    width: 99.5%;
 }
 
 
@@ -76,7 +76,7 @@ body{
     font-family: "AmericanText";
     text-align: center;
     text-shadow: rgb(255, 255, 255) 1px 1px 1px ;
-    margin-right: 5vw;
+    margin-right: 0vw;
     text-decoration: underline;   
 }
 #top_social{
@@ -114,15 +114,15 @@ display: inline-block;
 #sous_menu_1{
 
     float: left;
-    margin-top: 0.7vw;
-    margin-left: -3vw;
+    margin-top: 0.1vw;
+    margin-left: -2vw;
    
 }
 
 #sous_menu_2{
     float: right;
-    margin-top: 0.7vw;
-    margin-right: 3vw;
+    margin-top: 0.1vw;
+    margin-right: 2vw;
 }
   .sous_menu_li{
 
@@ -143,8 +143,25 @@ display: inline-block;
     color: white;
     text-decoration: none;
     font-family: "AmericanText";
-    font-size: 1.5vw;
+    font-size: 2vw;
     
+}
+
+
+.sous_menu_a:hover{
+  display: inline-block;
+  border-top: 0.2vw solid  rgb(59, 24, 24);
+  border-left: 0.2vw solid rgb(59, 24, 24);
+  border-right: 0.2vw solid  rgb(59, 24, 24);
+  border-top-left-radius: 16%;
+  border-top-right-radius: 16%;
+  border-bottom-left-radius:15%;
+  border-bottom-right-radius:15%;
+  background-color:white;
+  color:  rgb(59, 24, 24);
+  text-decoration: none;
+  font-family: "AmericanText";
+  font-size: 2vw;
 }
 
 #bg_1{
@@ -154,15 +171,15 @@ display: inline-block;
 }
 .pic{
     background-color: black;
-    height: 15%;
-    width: 30%;
-    margin-top: 0.5vw;
+    height: 25vh;
+    width: 30vw;
+    margin-top: 1vw;
     margin-bottom: 1vw;
     margin-left: -10vw;
 }
 
 .pic-ctn {
-    width: auto;
+    width:50%;
     height:200px;
   }
   
@@ -190,10 +207,8 @@ display: inline-block;
   }
   
   .pic-ctn {
-
-    width: 100vw;
-    height: 300px;
-  
+    width:50%;
+    height:200px;
   }
   
   .pic-ctn > img {
@@ -225,11 +240,40 @@ display: inline-block;
     width: 100%;
     height: 0.5vw;
     background-color: rgb(59, 24, 24);
+    border: 0.2vw solid white;
+    margin-top: 4vw;
   }
+#ligne_1{
+  background: linear-gradient(360deg, rgb(59, 24, 24), rgb(255, 255, 255,)) ;
+}
+
+.shop_img{
+  margin-left: 20vw;
+  width: auto;
+
+}
+
+
+.shop_img > img{
+
+margin-left:2vw;  
+margin-top: 1vw;
+margin-bottom: 1vw;
+height: 50vh;
+width: 15vw;
+border: 0.5vw solid rgb(59, 24, 24);
+
+}
 
 
 
+#underline_1{
+  width: 100%;
+  height: 0.5vw;
+  background-color: rgb(59, 24, 24);
+  border: 0.2vw solid white;
 
+}
 
 
 
@@ -270,25 +314,25 @@ display: inline-block;
 #top_slogan{
 
   font-size: 2.5vw;
-  margin-left: 6vw;
+  margin-left: 0vw;
   margin-top: -7vw;
 }
 #sous_menu_1{
-  margin-left: -3vw;
+  margin-left: -5vw;
 
 }
 .sous_menu_a{
   height: 4vw;
-  margin-top:8.5vw;
+  margin-top:8.8vw;
   margin-left: 1vw;
 }
 
 
 .sous_menu_a {
   display: inline-block;
-  border-top: 0.2vw solid white;
-  border-left: 0.2vw solid white;
-  border-right: 0.2vw solid white;
+  border-top: 0.3vw solid white;
+  border-left: 0.3vw solid white;
+  border-right: 0.3vw solid white;
   border-top-left-radius: 16%;
   border-top-right-radius: 16%;
   border-bottom-left-radius:15%;
@@ -299,6 +343,51 @@ display: inline-block;
   font-family: "AmericanText";
   font-size: 3vw;
 }
+
+.sous_menu_a:hover{
+
+  display: inline-block;
+  border-top: 0.3vw solid  rgb(59, 24, 24);
+  border-left: 0.3vw solid  rgb(59, 24, 24);
+  border-right: 0.3vw solid  rgb(59, 24, 24);
+  border-top-left-radius: 16%;
+  border-top-right-radius: 16%;
+  border-bottom-left-radius:15%;
+  border-bottom-right-radius:15%;
+  background-color:white;
+  color: rgb(59, 24, 24);
+  text-decoration: none;
+  font-family: "AmericanText";
+  font-size: 3vw;
+
+}
+
+.pic{
+  background-color: black;
+  height: 30vh;
+  width: 35vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-left: -10vw;
+}
+
+
+
+
+
+
+#underline_0{
+    width: auto;
+    background-color:rgb(59, 24, 24);
+    height:1vw;
+    margin-top: 7vw;
+}
+
+
+
+
+
+
 
 
 }
