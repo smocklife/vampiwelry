@@ -48,10 +48,10 @@ body{
 
 #logo{
     float: left;
-    width: 3.5vw;
-    height: 3.5vw;
-    margin-top: -3vw;
-    margin-left: 1vw;
+    width: 7vw;
+    height: 7vw;
+    margin-top: -10vw;
+    margin-left: 10vw;
     border: 0.5vw dashed red;
     border-radius: 100%;
     background-color: white;
@@ -60,7 +60,7 @@ body{
 
 #top_titre{
     color: rgb(59, 24, 24);
-    font-size: 3vw;
+    font-size: 8vw;
     font-family: "AmericanText";
     padding: auto;
     margin-top: 5vw;
@@ -71,7 +71,7 @@ body{
 
 #top_slogan{
     color: rgb(59, 24, 24);
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     font-weight: 800;
     font-family: "AmericanText";
     text-align: center;
@@ -81,8 +81,8 @@ body{
 }
 #top_social{
     float: right;
-    margin-right: 1vw;
-    margin-top: -7vw;
+    margin-right: 4vw;
+    margin-top: -10vw;
 
 }
 
@@ -99,8 +99,8 @@ display: inline-block;
 
 
 #icone{
-    width: 2vw;
-    height: 2vw;
+    width: 4vw;
+    height: 4vw;
     margin-left: 1vw;
     margin-top: 1vw;
 }
@@ -242,6 +242,7 @@ display: inline-block;
     width: auto;
     background-color:rgb(59, 24, 24);
     height:1vw;
+    margin-top: 10vw;
   }
   
 
@@ -251,7 +252,7 @@ display: inline-block;
     width: 5vw;
     height: 5vw;
     margin-left: 1vw;
-    margin-top: -5vw;
+    margin-top: 1vw;
 }
 #top_titre{
 
@@ -268,16 +269,17 @@ display: inline-block;
 
 #top_slogan{
 
-  font-size: 3vw;
+  font-size: 2.5vw;
   margin-left: 6vw;
+  margin-top: -7vw;
 }
 #sous_menu_1{
-  margin-left: -5vw;
+  margin-left: -3vw;
 
 }
 .sous_menu_a{
   height: 4vw;
-  margin-top: -1.5vw;
+  margin-top:8.5vw;
   margin-left: 1vw;
 }
 
