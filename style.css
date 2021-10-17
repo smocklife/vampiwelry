@@ -1,7 +1,13 @@
+
+
+
+
 @font-face {
     font-family: "AmericanText";
     src: url(police/AmericanText.ttf) format("truetype");
 }
+
+
 
 
 .underline{
@@ -12,19 +18,19 @@
     
 }
 
+
+
 header{
     margin: 0%;
     padding: 0%;
-    max-width:auto ;
-    min-width: auto;
+
 
 }
 
 body{
     margin: 0%;
     padding: 0%;
-    max-width:auto ;
-    min-width: auto;
+
  
 }
 
@@ -220,3 +226,76 @@ display: inline-block;
     height: 0.5vw;
     background-color: rgb(59, 24, 24);
   }
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 1024px) 
+{
+
+  .underline
+  {
+    width: auto;
+    background-color:rgb(59, 24, 24);
+    height:1vw;
+  }
+  
+
+
+
+  #icone{
+    width: 5vw;
+    height: 5vw;
+    margin-left: 1vw;
+    margin-top: -5vw;
+}
+#top_titre{
+
+  font-size: 8vw;
+
+}
+
+#logo{
+  width: 8vw;
+  height: 8vw;
+  margin-top: -10vw;
+}
+
+#top_slogan{
+
+  font-size: 3vw;
+  margin-left: 6vw;
+}
+#sous_menu_1{
+  margin-left: -9vw;
+
+}
+.sous_menu_a{
+  height: 4vw;
+  margin-top: -1.5vw;
+  margin-left: 1vw;
+}
+
+
+.sous_menu_a {
+  display: inline-block;
+  border-top: 0.2vw solid white;
+  border-left: 0.2vw solid white;
+  border-right: 0.2vw solid white;
+  border-top-left-radius: 16%;
+  border-top-right-radius: 16%;
+  border-bottom-left-radius:15%;
+  border-bottom-right-radius:15%;
+  background-color: rgb(59, 24, 24);
+  color: white;
+  text-decoration: none;
+  font-family: "AmericanText";
+  font-size: 3vw;
+}
+
+
+}
