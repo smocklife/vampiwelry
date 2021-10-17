@@ -380,13 +380,30 @@ border: 0.5vw solid rgb(59, 24, 24);
     width: auto;
     background-color:rgb(59, 24, 24);
     height:1vw;
-    margin-top: 7vw;
+    margin-top: 9vw;
 }
 
 
 
 
+.shop_img{
+  margin-top: 5vw;
+  margin-left: 15vw;
+  width: auto;
 
+}
+
+
+.shop_img > img{
+
+margin-left:2vw;  
+margin-top: 1vw;
+margin-bottom: 1vw;
+height: 30vh;
+width: 20vw;
+border: 0.5vw solid rgb(59, 24, 24);
+
+}
 
 
 
