@@ -1,6 +1,6 @@
 @font-face {
     font-family: "AmericanText";
-    src: url(police/AmericanText.ttf) format("truetype");
+    src: url(../../police/AmericanText.ttf) format("truetype");
 }
 
 .underline{
@@ -203,163 +203,36 @@ border-bottom:0.5vw groove white;
 
   position: absolute;
 }
-
-#bg_1{
-    background-color: black;
-    height: 24vh;
-    width: auto;
+.sous_titre{
+  margin-left: 10vw;
+ 
 }
-.pic{
-    background-color: black;
-    height: 30%;
-    width: 25%;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    margin-left: -4vw;
+.sous_titre img{
+  width: 70%;
+  height: 15vw;
+  margin-top: 2vw;
+  border:0.5vw groove rgb(59, 24, 24) ;
 }
-
-.pic-ctn {
-    width:50%;
-    height:200px;
-  }
-  
-  @keyframes display {
-    0% {
-      transform: translateX(200px);
-      opacity: 0;
-    }
-    10% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    20% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    30% {
-      transform: translateX(-200px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(-200px);
-      opacity: 0;
-    }
-  }
-
-  
-  .pic-ctn > img {
-    position: absolute;
-    left: calc(50% - 100px);
-    opacity: 0;
-    animation: display 10s infinite;
-    border: white 0.5vw solid;
-
-  }
-  
-  img:nth-child(2) {
-    animation-delay: 2s;
-  }
-  img:nth-child(3) {
-    animation-delay: 4s;
-  }
-  img:nth-child(4) {
-    animation-delay: 6s;
-  }
-  img:nth-child(5) {
-    animation-delay: 8s;
-  }
-
-
-
-
-  #underline_0{
-    width: 100%;
-    height: 0.5vw;
-    background-color: rgb(59, 24, 24);
-    border: 0.2vw solid white;
-    margin-top: 9vw;
-  }
-#ligne_1{
-  background: linear-gradient(360deg, rgb(59, 24, 24), rgb(255, 255, 255,)) ;
-}
-
-
-.shop_img {
-  margin-left: 21vw;
-  
-}
-
-.shop_img a img{
-margin-left:2vw;  
-margin-top: 1vw;
-margin-bottom: 1vw;
-height: 25%;
-width: 15%;
-border: 0.5vw solid rgb(59, 24, 24);
-cursor: url('curseur/hello/Aero_Prec.cur'),pointer;
-}
-
-.shop_img img:hover  {
-  border: 0.5vw solid gold;
-  background-color: black;
-  opacity: 0.5;
-
-}
-
-
-
-
-
-
-
-#underline_1{
-  width: 100%;
-  height: 0.5vw;
-  background-color: rgb(59, 24, 24);
-  border: 0.2vw solid white;
-
-}
-
-
-
-footer{
-  width: auto;
-  height: auto;
-  text-align: center;
-  font-size: 1.3vw;
-  font-family:"americantext";
-}
-
-#lien_utile{
-  margin-top: 1vw;
-}
-
-#lien_utile >a{
-  margin-top: 1vw;
-  text-decoration: underline;
-  color: white;
-}
-#copy_right{
+.titre_collier{
+ 
+  position: absolute;
+  margin-left: -35vw;
   margin-top: 5vw;
-  color: white;
-  text-align: center;
-
+  color: black;
+  font-size: 5vw;
+  font-family: "americantext";
 }
 
 
 
 
-#underline_2{
-  width: 100%;
-  height: 0.5vw;
-  background-color: rgb(59, 24, 24);
-  border: 0.2vw solid white;
 
-}
 
-/*MES MEDIA MAW 1080PX */
 
-  @media screen and (max-width: 1080px) 
+
+
+
+@media screen and (max-width: 1080px) 
 {
 
   .underline
@@ -465,30 +338,18 @@ footer{
   z-index: 1;
   position: absolute;
 }
-.pic{
-  background-color: black;
-  height: 20%;
-  width: 35%;
+
+.sous_titre{
+  margin-left: 20vw;
+ 
+}
+
+.sous_titre img{
+  width: 70%;
+  height: 15vw;
   margin-top: 2vw;
-  margin-bottom: -5vw;
-  margin-left:0vw;
+  border:0.5vw groove rgb(59, 24, 24) ;
 }
-
-
-  .pic-ctn {
-    width:50%;
-    height:200px;
-  }
-
-
-#underline_0{
-    width: auto;
-    background-color:rgb(59, 24, 24);
-    height:1vw;
-    margin-top: 2vw;
-
-}
-
 
 
 
