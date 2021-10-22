@@ -208,8 +208,8 @@ border-bottom:0.5vw groove white;
  
 }
 .sous_titre img{
-  width: 70%;
-  height: 15vw;
+  width: 65%;
+  height: 10vw;
   margin-top: 2vw;
   border:0.5vw groove rgb(59, 24, 24) ;
 }
@@ -217,7 +217,7 @@ border-bottom:0.5vw groove white;
  
   position: absolute;
   margin-left: -35vw;
-  margin-top: 5vw;
+  margin-top: 3vw;
   color: black;
   font-size: 5vw;
   font-family: "americantext";
@@ -225,9 +225,20 @@ border-bottom:0.5vw groove white;
 
 
 
+.shop_img{
+  margin-left: 25vw;
+}
+.shop_img a img{
+  border: 0.5vw solid rgb(59, 24, 24);
+  border-radius: 100%;
+  margin: 1vw;
+}
 
-
-
+.shop_img a img:hover {
+  border: 0.5vw solid gold;
+  border-radius: 100%;
+  margin: 1vw;
+}
 
 
 
