@@ -362,6 +362,22 @@ border-bottom:0.5vw groove white;
   border:0.5vw groove rgb(59, 24, 24) ;
 }
 
+.shop_img{
+  margin-left: 10vw;
+  
+}
+.shop_img a img{
+  border: 0.5vw solid rgb(59, 24, 24);
+  border-radius: 100%;
+  margin: 1vw;
+  width: 20%;
+}
+
+.shop_img a img:hover {
+  border: 0.5vw solid gold;
+  border-radius: 100%;
+  margin: 1vw;
+}
 
 
 
