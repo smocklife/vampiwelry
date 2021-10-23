@@ -371,7 +371,11 @@ footer{
     margin-top: 10vw;
   }
   
-
+body{
+  background-image: url(../../image/fond/background_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
   #icone{
