@@ -368,6 +368,22 @@ footer{
   @media screen and (max-width: 1080px) 
 {
 
+
+  html{
+    width: 100%;
+    height: auto;
+    background-image: url(/vampiwelry/image/fond/background_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body{
+    margin: 0%;
+    padding: auto;
+    width: auto;
+    height: auto;
+   
+  }
   .underline
   {
     width: 99,6;
