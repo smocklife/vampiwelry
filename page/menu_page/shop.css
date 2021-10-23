@@ -397,7 +397,6 @@ footer{
 }
 
 .sous_menu_a:hover{
-
   display: inline-block;
   border-top: 0.3vw solid  rgb(59, 24, 24);
   border-left: 0.3vw solid  rgb(59, 24, 24);
@@ -436,7 +435,7 @@ footer{
   z-index: 1;
   position: absolute;
 }
-
+/*page menu  */
 .sous_titre{
   margin-left: 20vw;
 
@@ -467,6 +466,15 @@ footer{
   margin: 1vw;
 }
 
+.titre_collier{
+  position: absolute;
+  margin-left: -33vw;
+  margin-top: 6vw;
+  color: black;
+  font-size: 5vw;
+  font-family: "americantext";
+  text-shadow: 0px 0px 25px white;
+}
 
 
 #lien_utile{
