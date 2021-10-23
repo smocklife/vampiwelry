@@ -4,7 +4,7 @@
 }
 
 html{
-  width: 100%;
+  width: auto;
   height: auto;
   background-image: url(/vampiwelry/image/fond/background_2.jpg);
   background-repeat: no-repeat;
@@ -370,7 +370,7 @@ footer{
 
 
   html{
-    width: 100%;
+    width: auto;
     height: auto;
     background-image: url(/vampiwelry/image/fond/background_2.jpg);
     background-repeat: no-repeat;

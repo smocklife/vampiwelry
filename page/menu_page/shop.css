@@ -5,7 +5,7 @@
 
 
 html{
-  width: 100%;
+  width: auto;
   height: auto;
   background-image: url(/vampiwelry/image/fond/background_2.jpg);
   background-repeat: no-repeat;
@@ -308,6 +308,14 @@ footer{
 @media screen and (max-width: 1080px) 
 {
 
+  html{
+    width: auto;
+    height: auto;
+    background-image: url(/vampiwelry/image/fond/background_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
   .underline
   {
     width: auto;
