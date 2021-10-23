@@ -24,7 +24,7 @@ body{
     background-image: url(/vampiwelry/image/fond/background_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 99.5%;
+    width: auto;
    
   }
   
@@ -300,7 +300,7 @@ border-radius: 20%;
 }
 
 .shop_img img:hover  {
-  border: 0.3vw solid gold;
+  border: 0.3vw solid white;
   background-color: black;
   opacity: 0.5;
   box-shadow: 10px 10px 20px white;
