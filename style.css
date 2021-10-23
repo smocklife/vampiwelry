@@ -3,6 +3,10 @@
     src: url(police/AmericanText.ttf) format("truetype");
 }
 
+html{
+  width: 100%;
+  height: 100%;
+}
 .underline{
     width: 99.6%;
     height: 0.5vw;
