@@ -5,7 +5,7 @@
 
 html{
   width: 100%;
-  height: 100%;
+  height: auto;
   background-image: url(/vampiwelry/image/fond/background_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,9 +28,8 @@ header{
 body{
     margin: 0%;
     padding: auto;
-
     width: auto;
-    height: 100%;
+    height: auto;
    
   }
   
@@ -296,11 +295,11 @@ border-bottom:0.5vw groove white;
 }
 
 .shop_img a img{
-margin-left:2vw;  
+margin-left:-1vw;  
 margin-top: 1vw;
 margin-bottom: 1vw;
-height: 25%;
-width: 15%;
+height: 30%;
+width: 20%;
 border: 0.3vw solid rgb(59, 24, 24);
 border-radius: 20%;
 }
