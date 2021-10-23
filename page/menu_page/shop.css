@@ -229,8 +229,10 @@ border-bottom:0.5vw groove white;
 
   position: absolute;
 }
+
+/*mise en page */
 .sous_titre{
-  margin-left: 10vw;
+  margin-left: 25vw;
  
 }
 .sous_titre img{
@@ -238,21 +240,23 @@ border-bottom:0.5vw groove white;
   height: 10vw;
   margin-top: 2vw;
   border:0.2vw solid rgb(59, 24, 24) ;
+
 }
 .titre_collier{
  
   position: absolute;
-  margin-left: -35vw;
+  margin-left: -30vw;
   margin-top: 3vw;
   color: black;
   font-size: 5vw;
   font-family: "americantext";
+  text-shadow: 0px 0px 25px white;
 }
 
 
 
 .shop_img{
-  margin-left: 25vw;
+  margin-left: 30vw;
 }
 .shop_img a img{
   border: 0.3vw solid rgb(59, 24, 24);
@@ -435,7 +439,7 @@ footer{
 
 .sous_titre{
   margin-left: 20vw;
- 
+
 }
 
 .sous_titre img{
@@ -443,11 +447,12 @@ footer{
   height: 15vw;
   margin-top: 2vw;
   border:0.5vw groove rgb(59, 24, 24) ;
+
 }
 
 .shop_img{
   margin-left: 10vw;
-  
+
 }
 .shop_img a img{
   border: 0.5vw solid rgb(59, 24, 24);
