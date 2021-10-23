@@ -4,7 +4,6 @@
 }
 
 html{
-
   background-image: url(/vampiwelry/image/fond/background_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -288,12 +287,12 @@ border-bottom:0.5vw groove white;
 
 
 .shop_img {
-  margin-left: 21vw;
+  margin-left: 15vw;
   
 }
 
 .shop_img a img{
-margin-left:-1vw;  
+margin-left:2vw;  
 margin-top: 1vw;
 margin-bottom: 1vw;
 height: 30%;
@@ -317,7 +316,7 @@ border-radius: 20%;
 
 
 #underline_1{
-  width: 100%;
+  width: 99.6%;
   height: 0.5vw;
   background-color: rgb(59, 24, 24);
   border: 0.2vw solid white;
