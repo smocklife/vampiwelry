@@ -112,7 +112,7 @@ display: inline-block;
     height: 4vw;
     margin-left: 1vw;
     margin-top: 1vw;
-    cursor: url('curseur/hello/Aero_Prec.cur'),pointer;
+
 }
 
 #icone:hover{
@@ -162,7 +162,7 @@ display: inline-block;
     text-decoration: none;
     font-family: "AmericanText";
     font-size: 2vw;
-    cursor: url('curseur/hello/Aero_Prec.cur'),pointer;
+
 }
 
 
@@ -203,7 +203,7 @@ font-family: "americantext";
 font-size: 1.5vw;
 text-decoration: none;
 padding:2vw;
-cursor: url('curseur/hello/Aero_Prec.cur'),pointer;
+
 }
 
 #deroulant li:hover{
