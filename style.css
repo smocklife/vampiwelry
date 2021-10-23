@@ -25,6 +25,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
+    height: 100%;
    
   }
   
@@ -365,7 +366,7 @@ footer{
 
   .underline
   {
-    width: auto;
+    width: 99,6;
     background-color:rgb(59, 24, 24);
     height:1vw;
     margin-top: 10vw;
@@ -484,7 +485,7 @@ footer{
 
 
 #underline_0{
-    width: auto;
+    width: 99.6;
     background-color:rgb(59, 24, 24);
     height:1vw;
     margin-top: 2vw;
