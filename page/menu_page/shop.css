@@ -4,14 +4,14 @@
 }
 
 .underline{
-    width: 100%;
+    width: 99.6%;
     height: 0.5vw;
     background-color: rgb(59, 24, 24);
     border:0.2vw solid white ;
 }
 
 header{
-    margin: 0%;
+    margin-left: 0%;
     padding: 0%;
     width: auto;
 
@@ -19,17 +19,21 @@ header{
 }
 
 body{
+  
     margin: 0%;
-    padding: 0%;
-    background-color: black;
-    width: 99.5%;
+    padding:auto;
+    background-image: url(../../image/fond/background_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:auto;
     cursor: url(curseur/hello/Aero_arrow.cur),pointer;
   }
   
 #top_menu{
     width:100%;
     height: auto;
-    background-color: black;
+    /*background-color: black;
+    opacity: 1;*/
     color: rgb(59, 24, 24);
     text-align: center;
     font-size: 1vw;
@@ -77,6 +81,8 @@ body{
 
 }
 
+
+
 .social_menu{
     display: inline;
 
@@ -85,7 +91,6 @@ body{
 .social_menu_a{
    
 display: inline-block;
-
 }
 
 
@@ -96,10 +101,18 @@ display: inline-block;
     margin-top: 1vw;
     cursor: url('curseur/hello/Aero_Prec.cur'),pointer;
 }
+
+#icone:hover{
+  border: 0vw solid white;
+  border-radius: 100%;
+  box-shadow: 0px 0px 30px white;
+
+}
+
 #sous_menu{
     width: 100%;
     height:4vw;
-    background-color: black;
+    /*background-color: black;*/
 
 }
 
@@ -211,7 +224,7 @@ border-bottom:0.5vw groove white;
   width: 65%;
   height: 10vw;
   margin-top: 2vw;
-  border:0.5vw groove rgb(59, 24, 24) ;
+  border:0.2vw solid rgb(59, 24, 24) ;
 }
 .titre_collier{
  
@@ -229,19 +242,56 @@ border-bottom:0.5vw groove white;
   margin-left: 25vw;
 }
 .shop_img a img{
-  border: 0.5vw solid rgb(59, 24, 24);
+  border: 0.3vw solid rgb(59, 24, 24);
   border-radius: 100%;
   margin: 1vw;
 }
 
 .shop_img a img:hover {
-  border: 0.5vw solid gold;
+  border: 0.3vw solid white;
   border-radius: 100%;
   margin: 1vw;
+  box-shadow: 0px 2px 25px  white;
 }
 
 
 
+#underline_1{
+  width: 99.6%;
+  height: 0.5vw;
+  background-color: rgb(59, 24, 24);
+  border: 0.2vw solid white;
+
+}
+
+
+
+footer{
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 1.3vw;
+  font-family:"americantext";
+}
+
+#lien_utile{
+  margin-top: 1vw;
+}
+
+#lien_utile >a{
+  margin-top: 1vw;
+  text-decoration: underline;
+  color: white;
+}
+#copy_right{
+  margin-top: 5vw;
+  color: white;
+  text-align: center;
+
+}
+
+
+/* media max 1080px*/
 
 @media screen and (max-width: 1080px) 
 {
