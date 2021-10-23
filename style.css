@@ -6,6 +6,9 @@
 html{
   width: 100%;
   height: 100%;
+  background-image: url(/vampiwelry/image/fond/background_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .underline{
     width: 99.6%;
@@ -25,9 +28,7 @@ header{
 body{
     margin: 0%;
     padding: auto;
-    background-image: url(/vampiwelry/image/fond/background_2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
     width: auto;
     height: 100%;
    
