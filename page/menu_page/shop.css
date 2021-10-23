@@ -10,6 +10,7 @@ html{
   background-image: url(/vampiwelry/image/fond/background_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
 }
 
 .underline{
@@ -316,6 +317,17 @@ footer{
     background-size: cover;
   }
   
+  body{
+  
+    margin: 0%;
+    padding:auto;
+   /* background-image: url(../../image/fond/background_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    width:auto;
+    height: 100%;
+  
+  }
   .underline
   {
     width: auto;
