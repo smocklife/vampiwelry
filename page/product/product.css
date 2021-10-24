@@ -499,58 +499,27 @@ footer{
   z-index: 1;
   position: absolute;
 }
-/*page product */
 
-#product{
-    text-align: center;
-    border: 0.3vw solid black;
-    background-color: rgba(59, 24, 24, 0.513);
-    height: 100vw;
-    width: 75%;
-}
-/*titre*/
-.titre_product{
-    text-align: left;
-    font-size: 3vw;
-    font-family: "americantext";
-}
-/*image_product*/
-.image_product img{
-    float: left;
-    width: 20vw;
-    height: 20vw;
-    margin-left: 1vw;
-    margin-top: 1vw;
-    border: grey groove 0.5vw;
-    border-radius: 10%;
-}
-.image_product img:hover{
-    z-index: 3;
-    position: relative;
-    width:25vw;
-    height:25vw;
-}
 /*page product */
 #product{
     text-align: center;
     border: 0.3vw solid black;
     background-color: rgba(59, 24, 24, 0.513);
-    height: 50vw;
-    width: 75%;
-    margin-left: 15%;
+    width: 83VW;
+    margin-left: 10%;
 }
 /*titre*/
 .titre_product{
     text-align: left;
-    font-size: 3vw;
+    font-size: 7vw;
     font-family: "americantext";
 }
 /*image_product*/
 .image_product img{
     float: left;
-    width: 20vw;
-    height: 20vw;
-    margin-left: 1vw;
+    width: 30vw;
+    height: 30vw;
+    margin-left: 1.5vw;
     margin-top: 2vw;
     border: grey groove 0.5vw;
     border-radius: 10%;
@@ -558,16 +527,16 @@ footer{
 .image_product img:hover{
     z-index: 3;
     position: relative;
-    width:25vw;
-    height:25vw;
+    width:35vw;
+    height:35vw;
 
 }
 /*description product*/
 .des_product{
     font-family: "americantext";
     background-color: rgb(77, 77, 77);
-    height: 80%;
-    width: 35vw;
+    height: 50%;
+    width: 40vw;
     margin-left:45% ;
     margin-top: 2vw;
     border:rgba(0, 0, 0, 0.548) solid 0.5vw ;
@@ -576,19 +545,19 @@ footer{
 .des_product h1{
     text-align: left;
     margin-left: 1vw;
-    font-size: 1.9vw;
+    font-size: 3vw;
     text-decoration: underline;
 }
 .des_product p{
     text-align: left;
     margin-left: 1vw;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
 }
 
 .des_product h3{
     text-align: left;
     margin: 1vw;
-    font-size: 1.9vw;
+    font-size: 3vw;
     text-decoration: underline;
 }
 .des_product ul{
@@ -602,7 +571,7 @@ footer{
 .des_product ul li{
     text-align: left;
     list-style: none;
-    font-size: 1.8vw;
+    font-size: 2.2vw;
     
     
 }
@@ -611,7 +580,7 @@ footer{
     float: right;
     margin-right: 0.5vw;
     margin-top: -3.5vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
     border: 0.2vw solid black;
     padding: 0.5vw;
     background-color: rgb(59, 24, 24);
@@ -623,6 +592,7 @@ footer{
 }
 .panier{
     margin-top: 1vw;
+    font-size: 2.8vw;
 }
 .panier a{
     text-decoration: none;
