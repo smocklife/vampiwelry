@@ -50,9 +50,9 @@ body{
     height: 14vw;
     margin-top: -11vw;
     margin-left: -45vw;
-    /*border: 0.5vw dashed red;*/
+    border: 0.5vw dashed rgb(59, 24, 24);
     border-radius: 100%;
-    /*background-color: white;*/
+    background-color: rgba(36, 35, 35, 0.424);
     
 }
 
