@@ -500,14 +500,13 @@ footer{
   position: absolute;
 }
 /*page product */
-/*page product */
+
 #product{
     text-align: center;
     border: 0.3vw solid black;
     background-color: rgba(59, 24, 24, 0.513);
-    height: 50vw;
+    height: 100vw;
     width: 75%;
-    margin-left: 15%;
 }
 /*titre*/
 .titre_product{
@@ -552,7 +551,7 @@ footer{
     width: 20vw;
     height: 20vw;
     margin-left: 1vw;
-    margin-top: 1vw;
+    margin-top: 2vw;
     border: grey groove 0.5vw;
     border-radius: 10%;
 }
@@ -561,14 +560,16 @@ footer{
     position: relative;
     width:25vw;
     height:25vw;
+
 }
 /*description product*/
 .des_product{
     font-family: "americantext";
     background-color: rgb(77, 77, 77);
-    height: 85%;
-    width: 30vw;
-    margin-left:48% ;
+    height: 80%;
+    width: 35vw;
+    margin-left:45% ;
+    margin-top: 2vw;
     border:rgba(0, 0, 0, 0.548) solid 0.5vw ;
 }
 
