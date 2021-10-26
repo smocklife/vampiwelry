@@ -268,7 +268,7 @@ border-bottom:0.5vw groove white;
 /*description product*/
 .des_product{
     font-family: "americantext";
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(59, 24, 24);
     height: 75%;
     width: 30vw;
     margin-left:48% ;
@@ -310,13 +310,14 @@ border-bottom:0.5vw groove white;
 }
 /*prix*/
 .prix{
+  color: white;
     float: right;
     margin-right: 0.5vw;
     margin-top: -3.5vw;
     font-size: 1vw;
     border: 0.2vw solid black;
     padding: 0.5vw;
-    background-color: rgb(59, 24, 24);
+    background-color: black;
 }
 
 #pr{
@@ -331,8 +332,8 @@ border-bottom:0.5vw groove white;
 }
 .panier a{
     text-decoration: none;
-    color: black;
-    background-color: rgb(59, 24, 24);
+    color: white;
+    background-color: black;
     border: 0.2vw solid black;
 }
 
