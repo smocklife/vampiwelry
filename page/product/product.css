@@ -267,6 +267,7 @@ border-bottom:0.5vw groove white;
 }
 /*description product*/
 .des_product{
+    color:white;
     font-family: "americantext";
     background-color: rgb(59, 24, 24);
     height: 75%;
